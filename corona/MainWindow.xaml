@@ -1,0 +1,19 @@
+﻿<Window x:Class="corona.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:corona"
+        mc:Ignorable="d"
+        Title="Corona" Height="172.488" Width="530.024">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="117*"/>
+            <ColumnDefinition Width="142*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtbusca" HorizontalAlignment="Left" Height="23" Margin="48,38,0,0" TextWrapping="Wrap" Text=".extensão" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtcaminho" HorizontalAlignment="Left" Height="23" Margin="48,91,0,0" TextWrapping="Wrap" Text="Caminho" VerticalAlignment="Top" Width="303" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnBusca" Grid.ColumnSpan="2" Content="Busca" HorizontalAlignment="Left" Margin="224,38,0,0" VerticalAlignment="Top" Width="81" Height="23" Click="btnBusca_Click"/>
+
+    </Grid>
+</Window>
